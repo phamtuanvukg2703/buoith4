@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.backgr{
+    width: 1470px;
+}
+h2{
+    POSITION: absolute;
+    top: 20%;
+    left: 35%;  
+}
+.co1{
+    position: absolute;
+    right: 0%;
+    top: 44%;
+}
+.co2{
+    position: absolute;
+    right: 20%;
+    top: 44%;
+}
+.bang{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 10%;
+}
+ul {
+    display: flex;
+    list-style: none;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+}
+li{
+    margin: 10px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.item{
+    display: none;
+    position: absolute;
+    background-color: rgb(57, 198, 29);
+}
+.item > a{
+    color: white;
+    padding: 10px;
+}
+li:hover >.item{
+    display: grid;
+}

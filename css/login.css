@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+legend{
+    border: 2px solid #625c5c;
+    padding: 10px;
+    background-color: white;
+}
+fieldset{
+    width: 300px;
+    height: 110px;
+    background-color: #ccc;
+}
+.container{
+    padding: 10px;
+}
+label{
+    margin: 10px;
+}
+.submit {
+    display: grid;
+    width: 300px;
+    background-color: rgb(139, 154, 222);
+    padding: 5px;
+    justify-items: end;
+}
+fieldset div {
+    margin: 5px;
+}
